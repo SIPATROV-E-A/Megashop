@@ -7,11 +7,11 @@ export function Header(params){
         <header className="header">
         <div className="container">
             <a href="#">
-                <img src="https://e7.pngegg.com/pngimages/615/494/png-clipart-logo-design-text-symbol.png" alt="" />
+                <img className="image" src="https://e7.pngegg.com/pngimages/615/494/png-clipart-logo-design-text-symbol.png" alt="" />
             </a>
             <div className="header_container">
-                <input type="text" placeholder="поиск" />
-<button > Поиск</button>        
+                <input className="input" type="text" placeholder="       поиск" />
+<button className="button" > Поиск</button>        
             </div>
         </div>
 
