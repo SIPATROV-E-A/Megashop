@@ -1,13 +1,22 @@
 
 import './App.css';
 import { Header } from '../Header/Header';
+import { Futer } from '../Futer/Futer';
+import { CardList } from '../CardList/CardList';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header></Header>
-      
-    </div>
+      <main className='content_container'>
+        <div className='content_cards'>
+          <CardList></CardList>
+
+        </div>
+      </main>
+      <Futer></Futer>
+    </>
+    
   );
 }
 
