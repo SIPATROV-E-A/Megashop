@@ -1,14 +1,15 @@
 import "./index.css";
 import React from "react";
 import Card from "../Card/Card";
+import data from '../assets/data.json'
 
 
 export function CardList(params){
     return(
         <div> 
-        <Card>
-
-        </Card>
+            {data.map((item)=><Card name={item.name}/>)
+        
+            }
         </div>
     );
 }

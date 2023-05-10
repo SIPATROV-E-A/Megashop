@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css"
 
-const Card =()=>{
+const Card =(props)=>{
 return(
     <div className="card_container">
         <div className="sale_container">
@@ -15,7 +15,7 @@ return(
          className="card_image" 
          />
          <div className="name_container">
-            <span className="name"> Клюшка Bauer RibCore</span>
+            <span className="name"> {props.name}</span>
          </div>
          <div> рейтинг </div>
          <div className="prise_container">

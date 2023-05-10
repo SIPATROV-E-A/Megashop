@@ -10,7 +10,7 @@ function App() {
       <Header></Header>
       <main className='content_container'>
         <div className='content_cards'>
-          <CardList></CardList>
+          <CardList/>
 
         </div>
       </main>
