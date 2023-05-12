@@ -6,12 +6,12 @@ return(
     <div className="card_container">
         <div className="sale_container">
 
-            <span className="sale"> 15 %</span>
+            <span className="sale"> {props.discount} %</span>
 
         </div>
         <img
-         src="https://avatars.mds.yandex.net/get-mpic/5226473/img_id2270370001046578512.jpeg/orig"
-         alt="Добавить в избранное"
+         src={props.pictures}
+         alt=""
          className="card_image" 
          />
          <div className="name_container">
@@ -19,14 +19,14 @@ return(
          </div>
          <div> рейтинг </div>
          <div className="prise_container">
-            <span className="prise"> 16000 Р.</span>
+            <span className="prise"> {props.price} Р.</span>
             <span className="prise_sale"> 13750 Р.</span>
 
          </div>
          <button> в корзину</button>
-         <span>
-            <svg></svg>
-         </span>
+         <button>
+            <img src="" alt="добавить в избранное" />
+         </button>
     </div>
 )
 }

@@ -11,9 +11,9 @@
         ],
         "isPublished": true,
         "_id": "622c779c77d63f6e70967d1c",
-        "name": "Желудки утиные сушено-вяленые",
+        "name": "Клюшка Bauer Ribcore",
        
-        "price": 550,
+        "price": 17500,
         "discount": 15,
         "stock": 10,
         "wight": "100 г",
@@ -24,7 +24,7 @@
     },
     {
         "available": true,
-        "pictures": "https://react-learning.ru/image-compressed/1.jpg",
+        "pictures": "https://wow-stickers.ru/wp-content/uploads/2/b/3/2b3663fc56792791d38aa4d92b24d57d.jpeg",
         "likes": [
             "622bd81b06c7d323b8ae4614"
         ],
@@ -34,10 +34,10 @@
         ],
         "isPublished": true,
         "_id": "622c779c77d63f6e70967d1c",
-        "name": "Желудки утиные сушено-вяленые",
+        "name": "Краги хоккейные Bauer Pro 800 Lite",
         
-        "price": 550,
-        "discount": 15,
+        "price": 10500,
+        "discount": 5,
         "stock": 10,
         "wight": "100 г",
         "description": "Описание demo",
@@ -47,7 +47,7 @@
     },
     {
         "available": true,
-        "pictures": "https://react-learning.ru/image-compressed/1.jpg",
+        "pictures": "https://ccm.ru/upload/iblock/d20/210-Senior-Hockey-Helmet-Combo.png",
         "likes": [
             "622bd81b06c7d323b8ae4614"
         ],
@@ -57,10 +57,10 @@
         ],
         "isPublished": true,
         "_id": "622c779c77d63f6e70967d1c",
-        "name": "Желудки утиные сушено-вяленые",
+        "name": "Шлем хоккейный CCM HTC TACKS",
        
-        "price": 550,
-        "discount": 15,
+        "price": 15500,
+        "discount": 10,
         "stock": 10,
         "wight": "100 г",
         "description": "Описание demo",

@@ -7,7 +7,7 @@ import data from '../assets/data.json'
 export function CardList(params){
     return(
         <div> 
-            {data.map((item)=><Card name={item.name}/>)
+            {data.map((item)=><Card name={item.name} price={item.price} discount={item.discount} pictures={item.pictures}/>)
         
             }
         </div>
