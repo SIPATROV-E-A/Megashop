@@ -1,31 +1,35 @@
 import React from "react";
 import "./index.css"
+import heart from '../assets/heart.svg'
 
-const Card =(props)=>{
+const Card =({name, discount, price, pictures})=>{
+
+    const sale = price - (price/100)*discount;
+    
 return(
     <div className="card_container">
         <div className="sale_container">
 
-            <span className="sale"> {props.discount} %</span>
+            <span className="sale"> {discount} %</span>
 
         </div>
         <img
-         src={props.pictures}
+         src={pictures}
          alt=""
          className="card_image" 
          />
          <div className="name_container">
-            <span className="name"> {props.name}</span>
+            <span className="name"> {name}</span>
          </div>
          <div> рейтинг </div>
          <div className="prise_container">
-            <span className="prise"> {props.price} Р.</span>
-            <span className="prise_sale"> 13750 Р.</span>
+            <span className="prise"> {price} Р.</span>
+            <span className="prise_sale"> {sale} Р.</span>
 
          </div>
          <button> в корзину</button>
          <button>
-            <img src="" alt="добавить в избранное" />
+            <img src={heart} alt="добавить в избранное" className="heart" />
          </button>
     </div>
 )
