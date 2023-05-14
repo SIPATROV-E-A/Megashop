@@ -6,6 +6,7 @@ const Card =({name, discount, price, pictures})=>{
 
     const sale = price - (price/100)*discount;
     
+    
 return(
     <div className="card_container">
         <div className="sale_container">
@@ -23,7 +24,7 @@ return(
          </div>
          <div> рейтинг </div>
          <div className="prise_container">
-            <span className="prise"> {price} Р.</span>
+            <span className="prise" > {price} Р.</span>
             <span className="prise_sale"> {sale} Р.</span>
 
          </div>
