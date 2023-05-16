@@ -6,12 +6,15 @@ const Card =({name, discount, price, pictures})=>{
 
     const sale = price - (price/100)*discount;
     
+    // ?? - оператор нулевого слияния. Если price = null/andefjund , то выполняется правая часть
+    // !! - привести правую часть к булевому значению
+    // {...&& ...} - условный рендеринг - если левая часть true, то правая часть рендерится, иначе не рендерится
     
 return(
     <div className="card_container">
         <div className="sale_container">
-
-            <span className="sale"> {discount} %</span>
+           {!!discount && <span className="sale"> - {discount} %</span>}
+            
 
         </div>
         <img
@@ -24,8 +27,8 @@ return(
          </div>
          <div> рейтинг </div>
          <div className="prise_container">
-            <span className="prise" > {price} Р.</span>
-            <span className="prise_sale"> {sale} Р.</span>
+            <span className="price" > {price ?? 'no price'} Р.</span> 
+            <span className="price_sale"> {sale} Р.</span>
 
          </div>
          <button> в корзину</button>
