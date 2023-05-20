@@ -21,4 +21,12 @@
 .heart{
     width: 15px;
     height: 15px;
+    fill:none;
 }
+
+.favorite_ikon{
+    fill: red;
+    width: 15px;
+    height: 15px;
+}
+
