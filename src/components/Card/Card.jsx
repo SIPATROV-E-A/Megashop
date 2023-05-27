@@ -32,7 +32,7 @@ return(
 
          </div>
          <div>
-            {stock}
+            {stock ?? 'no stock'}
          </div>
          <button> в корзину</button>
          <button className="favorite_ikon">
