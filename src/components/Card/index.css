@@ -33,3 +33,17 @@
 .price_sale {
     color: red;
 }
+
+.sale{
+
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: yellow;
+    border: 2px solid yellow;
+    color: #666;
+    text-align: center;
+
+}
