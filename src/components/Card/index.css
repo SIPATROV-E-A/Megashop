@@ -39,7 +39,7 @@
     border-radius: 50%;
     width: 36px;
     height: 36px;
-    padding: 8px;
+    padding: 8px 8px 8px 8px;
 
     background: yellow;
     border: 2px solid yellow;
