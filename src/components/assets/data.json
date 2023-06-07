@@ -62,9 +62,33 @@
         "name": "Шлем хоккейный CCM HTC TACKS",
        
         "price": 15500,
-        "discount": 10,
+        "discount": null,
         "stock": 10,
         "wight": "100 г",
+        "isFavorite": true,
+        "description": "Описание demo",
+        "created_at": "2022-03-12T10:36:12.324Z",
+        "updated_at": "2022-03-12T22:09:06.806Z",
+        "__v": 0
+    },
+    {
+        "available": true,
+        "pictures": "https://hockeyshop24.ru/image/cache/catalog/Belie_odezhda/Flame/komplekt-Flame-Jr/fSwP4Qg2dQM-328x328.jpg",
+        "likes": [
+            "622bd81b06c7d323b8ae4614"
+        ],
+        "reviews": [],
+        "tags": [
+            "new"
+        ],
+        "isPublished": true,
+        "_id": "622c779c77d63f6e70967d1c",
+        "name": "костюм компрессионный",
+       
+        "price": 5100,
+        "discount": 25,
+        "stock": 20,
+        "wight": "150 г",
         "isFavorite": true,
         "description": "Описание demo",
         "created_at": "2022-03-12T10:36:12.324Z",
