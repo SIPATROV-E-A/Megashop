@@ -27,8 +27,8 @@ return(
          </div>
          <div> рейтинг </div>
          <div className="prise_container">
-            <span className="price" > {price ?? 'no price'}&nbsp; Р.</span> 
-            <span className="price_sale"> {sale}&nbsp; Р.</span>
+            <span className={!!discount ? 'old_price':'price'} > {price ?? 'no price'}&nbsp; Р.</span> 
+            {!! discount && <span className="price_sale"> {sale}&nbsp; Р.</span>}
 
          </div>
          <div>
